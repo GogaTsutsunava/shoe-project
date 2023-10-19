@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 5%;
+  
+}
+.media ul {
+  gap: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+li {
+  list-style: none;
+}
+.POLICY ul {
+  display: flex;
+  gap: 20px;
+  li{
+    cursor: pointer;
+  }
+}
+.photo {
+  position: relative;
+  z-index: 2; /* Ensure the div is on top of the video */
+}
+
+
+.back-video {
+  position: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media screen and (max-width: 444px) {
+  .social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 2%;
+  }
+}

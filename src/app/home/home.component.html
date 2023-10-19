@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="d-flex flex-column flex-md-row justify-content-between">
+        <div class="col-md-4">
+            <img src="assets/images/M_Converse_101223_GBL_AWAKE_HP_P1_AvailableNow.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="col-md-4 text-light AVAILABLENOW">
+            <h4>{{s_Name}}</h4>
+            <h4>{{s_Quote}}</h4>
+            <p>Designer Angelo Baque brings the look and spirit of ’90s New York to our latest One Star Pro and clothing
+                collab.</p>
+            <button type="button" class="btn btn-outline-secondary">Shop</button>
+        </div>
+        <div class="col-md-4 img-girl">
+            <img src="assets/images/M_Converse_101223_GBL_AWAKE_HP_P1_AvailableNow.jpg" alt="" class="img-fluid">
+        </div>
+    </header>
+    <section class="d-flex flex-wrap shoes">
+        <div>
+            <img src="assets/images/M-Converse-10-05-WE-HP-Shop-By-Style-Primary-02-HO23.jpg" alt="" class="img-fluid">
+        </div>
+        <div>
+            <img src="assets/images/M-Converse-10-05-WE-HP-Shop-By-Style-Primary-02-HO23.jpg" alt="" class="img-fluid">
+        </div>
+        <div>
+            <img src="assets/images/M-Converse-10-05-WE-HP-Shop-By-Style-Primary-02-HO23.jpg" alt="" class="img-fluid">
+        </div>
+        <div>
+            <img src="assets/images/M-Converse-10-05-WE-HP-Shop-By-Style-Primary-02-HO23.jpg" alt="" class="img-fluid">
+        </div>
+    </section>
+    <section class="video-container">
+        <div class="video-overlay">
+
+            <video id="video" autoplay [muted]="1" loop>
+                <source src="assets/images/Converse x GOLF WANG Chuck 70 Flames.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+    </section>
+
+    <footer>
+        <div style="cursor: pointer;" routerLink="/Home"><img src="assets/images/logo.png" alt=""></div>
+        <h5>Make your day better with us</h5>
+        <h6>Website by Goga Tsutsunava</h6>
+    </footer>
+
+</body>
+
+</html>
